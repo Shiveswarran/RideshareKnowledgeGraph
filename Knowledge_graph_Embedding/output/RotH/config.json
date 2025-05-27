@@ -1,0 +1,15 @@
+{
+    "data_path": "/scratch/umni5/a/shives/Research_projects/Knowledge_graphs/RideshareKnowledgeGraph/Data/knowledge_graph_triplets.csv",
+    "model_name": "RotH",
+    "embedding_dim": 64,
+    "lr": 0.001,
+    "margin": 2.0,
+    "epochs": 200,
+    "batch_size": 1024,
+    "patience": 20,
+    "reg_type": null,
+    "reg_weight": 0.0,
+    "output_dir": "output/RotH",
+    "seed": 42,
+    "use_gpu": true
+}

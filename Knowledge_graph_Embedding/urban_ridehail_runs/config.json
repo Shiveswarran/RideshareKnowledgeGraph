@@ -1,0 +1,19 @@
+{
+    "data_path": "/scratch/umni5/a/shives/Research_projects/Knowledge_graphs/RideshareKnowledgeGraph/Data/knowledge_graph_triplets.csv",
+    "model_name": "UrbanRidehailKG",
+    "motif_lambda": 0.1,
+    "embedding_dim": 200,
+    "lr": 0.001,
+    "margin": 12.0,
+    "epochs": 200,
+    "batch_size": 1024,
+    "patience": 20,
+    "reg_type": "N2",
+    "reg_weight": 1e-05,
+    "output_dir": "./urban_ridehail_runs",
+    "seed": 42,
+    "use_gpu": true,
+    "neg_sampling": "density",
+    "temperature": 0.5,
+    "gamma": 12.0
+}
